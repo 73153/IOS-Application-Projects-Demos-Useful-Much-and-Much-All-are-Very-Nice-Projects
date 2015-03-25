@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>code</key>
+		<string>AF</string>
+		<key>country</key>
+		<string>Afghanistan</string>
+		<key>callcode</key>
+		<integer>93</integer>
+		<key>format</key>
+		<string>XXX XXX XXXX</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>AL</string>
+		<key>country</key>
+		<string>Albania</string>
+		<key>callcode</key>
+		<integer>355</integer>
+		<key>format</key>
+		<string>XXX XXX XXX</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>CA</string>
+		<key>country</key>
+		<string>Canada</string>
+		<key>callcode</key>
+		<integer>1</integer>
+		<key>format</key>
+		<string>(XXX) XXX-XXXX</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>FR</string>
+		<key>country</key>
+		<string>France</string>
+		<key>callcode</key>
+		<integer>33</integer>
+		<key>format</key>
+		<string>XX XX XX XX XX</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>US</string>
+		<key>country</key>
+		<string>United States</string>
+		<key>callcode</key>
+		<integer>1</integer>
+		<key>format</key>
+		<string>(XXX) XXX-XXXX</string>
+	</dict>
+</array>
+</plist>

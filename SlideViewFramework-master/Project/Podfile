@@ -1,0 +1,7 @@
+pod "slideframework", :path => "../slideframework.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end

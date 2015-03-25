@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Custom_Cells_AppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Custom_Cells_AppAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		DB078A1C153785A300F4AF47 /* SensibleTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB078A1B153785A300F4AF47 /* SensibleTableView.framework */; };
+		DB1EF598149F4DE40058F5C0 /* CounterTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1EF597149F4DE40058F5C0 /* CounterTextViewCell.m */; };
+		DB47898D13FC070200145454 /* PickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB47898C13FC070200145454 /* PickerCell.m */; };
+		DB4C6BEC12A408DF00DBC187 /* ObjectBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C6BEA12A408DF00DBC187 /* ObjectBindingViewController.m */; };
+		DB4C6BED12A408DF00DBC187 /* ObjectBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4C6BEB12A408DF00DBC187 /* ObjectBindingViewController.xib */; };
+		DB4C6BF112A408F000DBC187 /* KeyBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C6BEF12A408F000DBC187 /* KeyBindingViewController.m */; };
+		DB4C6BF212A408F000DBC187 /* KeyBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4C6BF012A408F000DBC187 /* KeyBindingViewController.xib */; };
+		DB4C6C5612A4128500DBC187 /* ContactDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4C6C5512A4128500DBC187 /* ContactDataCell.xib */; };
+		DB4C6D6612A4242400DBC187 /* ContactOverviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4C6D6512A4242400DBC187 /* ContactOverviewCell.xib */; };
+		DB6AD428160577FF0073261E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6AD427160577FF0073261E /* Default-568h@2x.png */; };
+		DBBF17E7165311D4008C0348 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF17E6165311D4008C0348 /* Contact.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Custom_Cells_AppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Custom_Cells_AppAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Custom_Cells_AppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Custom_Cells_AppAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Custom Cells App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Cells App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Custom_Cells_App_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Custom_Cells_App_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Custom_Cells_App-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Custom_Cells_App-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DB078A1B153785A300F4AF47 /* SensibleTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensibleTableView.framework; path = "../../../Static Frameworks/SensibleTableView.framework"; sourceTree = "<group>"; };
+		DB1EF596149F4DE40058F5C0 /* CounterTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterTextViewCell.h; sourceTree = "<group>"; };
+		DB1EF597149F4DE40058F5C0 /* CounterTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterTextViewCell.m; sourceTree = "<group>"; };
+		DB47898B13FC070200145454 /* PickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerCell.h; sourceTree = "<group>"; };
+		DB47898C13FC070200145454 /* PickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerCell.m; sourceTree = "<group>"; };
+		DB4C6BE912A408DF00DBC187 /* ObjectBindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectBindingViewController.h; sourceTree = "<group>"; };
+		DB4C6BEA12A408DF00DBC187 /* ObjectBindingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectBindingViewController.m; sourceTree = "<group>"; };
+		DB4C6BEB12A408DF00DBC187 /* ObjectBindingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObjectBindingViewController.xib; sourceTree = "<group>"; };
+		DB4C6BEE12A408F000DBC187 /* KeyBindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBindingViewController.h; sourceTree = "<group>"; };
+		DB4C6BEF12A408F000DBC187 /* KeyBindingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBindingViewController.m; sourceTree = "<group>"; };
+		DB4C6BF012A408F000DBC187 /* KeyBindingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyBindingViewController.xib; sourceTree = "<group>"; };
+		DB4C6C5512A4128500DBC187 /* ContactDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDataCell.xib; sourceTree = "<group>"; };
+		DB4C6D6512A4242400DBC187 /* ContactOverviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactOverviewCell.xib; sourceTree = "<group>"; };
+		DB6AD427160577FF0073261E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DBBF17E5165311D4008C0348 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		DBBF17E6165311D4008C0348 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				DB078A1C153785A300F4AF47 /* SensibleTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* Custom_Cells_AppAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Custom_Cells_AppAppDelegate.m */,
+				DBBF17E4165310C9008C0348 /* Object Classes */,
+				DB4C6BE912A408DF00DBC187 /* ObjectBindingViewController.h */,
+				DB4C6BEA12A408DF00DBC187 /* ObjectBindingViewController.m */,
+				DB4C6BEB12A408DF00DBC187 /* ObjectBindingViewController.xib */,
+				DB4C6BEE12A408F000DBC187 /* KeyBindingViewController.h */,
+				DB4C6BEF12A408F000DBC187 /* KeyBindingViewController.m */,
+				DB4C6BF012A408F000DBC187 /* KeyBindingViewController.xib */,
+				DB1EF596149F4DE40058F5C0 /* CounterTextViewCell.h */,
+				DB1EF597149F4DE40058F5C0 /* CounterTextViewCell.m */,
+				DB47898B13FC070200145454 /* PickerCell.h */,
+				DB47898C13FC070200145454 /* PickerCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Custom Cells App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DB6AD427160577FF0073261E /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Custom_Cells_App_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Custom_Cells_App-Info.plist */,
+				DB4C6C5512A4128500DBC187 /* ContactDataCell.xib */,
+				DB4C6D6512A4242400DBC187 /* ContactOverviewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB078A1B153785A300F4AF47 /* SensibleTableView.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBBF17E4165310C9008C0348 /* Object Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DBBF17E5165311D4008C0348 /* Contact.h */,
+				DBBF17E6165311D4008C0348 /* Contact.m */,
+			);
+			name = "Object Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Custom Cells App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Custom Cells App" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Cells App";
+			productName = "Custom Cells App";
+			productReference = 1D6058910D05DD3D006BFB54 /* Custom Cells App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Custom Cells App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Custom Cells App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				DB4C6BED12A408DF00DBC187 /* ObjectBindingViewController.xib in Resources */,
+				DB4C6BF212A408F000DBC187 /* KeyBindingViewController.xib in Resources */,
+				DB4C6C5612A4128500DBC187 /* ContactDataCell.xib in Resources */,
+				DB4C6D6612A4242400DBC187 /* ContactOverviewCell.xib in Resources */,
+				DB6AD428160577FF0073261E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Custom_Cells_AppAppDelegate.m in Sources */,
+				DB4C6BEC12A408DF00DBC187 /* ObjectBindingViewController.m in Sources */,
+				DB4C6BF112A408F000DBC187 /* KeyBindingViewController.m in Sources */,
+				DB47898D13FC070200145454 /* PickerCell.m in Sources */,
+				DB1EF598149F4DE40058F5C0 /* CounterTextViewCell.m in Sources */,
+				DBBF17E7165311D4008C0348 /* Contact.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Static Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Custom_Cells_App_Prefix.pch;
+				INFOPLIST_FILE = "Custom_Cells_App-Info.plist";
+				PRODUCT_NAME = "Custom Cells App";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Static Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Custom_Cells_App_Prefix.pch;
+				INFOPLIST_FILE = "Custom_Cells_App-Info.plist";
+				PRODUCT_NAME = "Custom Cells App";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Custom Cells App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Custom Cells App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

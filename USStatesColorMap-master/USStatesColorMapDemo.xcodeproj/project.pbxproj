@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A619399C173E564C0046E4B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A619399B173E564C0046E4B9 /* AppDelegate.m */; };
+		A61939A7173E567F0046E4B9 /* MapCustomizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A619399F173E567F0046E4B9 /* MapCustomizationViewController.m */; };
+		A61939A8173E567F0046E4B9 /* MapCustomizationViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61939A0173E567F0046E4B9 /* MapCustomizationViewController_iPad.xib */; };
+		A61939A9173E567F0046E4B9 /* MapCustomizationViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61939A1173E567F0046E4B9 /* MapCustomizationViewController_iPhone.xib */; };
+		A61939AA173E567F0046E4B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61939A4173E567F0046E4B9 /* ViewController.m */; };
+		A61939AB173E567F0046E4B9 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61939A5173E567F0046E4B9 /* ViewController_iPad.xib */; };
+		A61939AC173E567F0046E4B9 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61939A6173E567F0046E4B9 /* ViewController_iPhone.xib */; };
+		A61B9C4D1739687300453144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B9C4C1739687300453144 /* UIKit.framework */; };
+		A61B9C4F1739687300453144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B9C4E1739687300453144 /* Foundation.framework */; };
+		A61B9C511739687300453144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B9C501739687300453144 /* CoreGraphics.framework */; };
+		A61B9C571739687300453144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A61B9C551739687300453144 /* InfoPlist.strings */; };
+		A61B9C591739687300453144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61B9C581739687300453144 /* main.m */; };
+		A61B9C5F1739687300453144 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A61B9C5E1739687300453144 /* Default.png */; };
+		A61B9C611739687300453144 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A61B9C601739687300453144 /* Default@2x.png */; };
+		A61B9C631739687300453144 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A61B9C621739687300453144 /* Default-568h@2x.png */; };
+		A61B9C76173968AB00453144 /* stately.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A61B9C73173968AB00453144 /* stately.ttf */; };
+		A61B9C77173968AB00453144 /* USStatesColorMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A61B9C75173968AB00453144 /* USStatesColorMap.m */; };
+		A67D9498173EA5650046FBE6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67D9497173EA5650046FBE6 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6112DF4173CF36F0057AC57 /* USStatesColorMapHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USStatesColorMapHeader.h; sourceTree = "<group>"; };
+		A6193995173E54E70046E4B9 /* UINavigationController+AllOrientationsiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AllOrientationsiPhone.h"; sourceTree = "<group>"; };
+		A619399A173E564C0046E4B9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A619399B173E564C0046E4B9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A619399E173E567F0046E4B9 /* MapCustomizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapCustomizationViewController.h; sourceTree = "<group>"; };
+		A619399F173E567F0046E4B9 /* MapCustomizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapCustomizationViewController.m; sourceTree = "<group>"; };
+		A61939A0173E567F0046E4B9 /* MapCustomizationViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapCustomizationViewController_iPad.xib; sourceTree = "<group>"; };
+		A61939A1173E567F0046E4B9 /* MapCustomizationViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapCustomizationViewController_iPhone.xib; sourceTree = "<group>"; };
+		A61939A3173E567F0046E4B9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A61939A4173E567F0046E4B9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A61939A5173E567F0046E4B9 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		A61939A6173E567F0046E4B9 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A61B9C491739687300453144 /* USStatesColorMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USStatesColorMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61B9C4C1739687300453144 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A61B9C4E1739687300453144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A61B9C501739687300453144 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A61B9C541739687300453144 /* USStatesColorMapDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "USStatesColorMapDemo-Info.plist"; sourceTree = "<group>"; };
+		A61B9C561739687300453144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A61B9C581739687300453144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A61B9C5A1739687300453144 /* USStatesColorMapDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USStatesColorMapDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A61B9C5E1739687300453144 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A61B9C601739687300453144 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A61B9C621739687300453144 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A61B9C73173968AB00453144 /* stately.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = stately.ttf; sourceTree = "<group>"; };
+		A61B9C74173968AB00453144 /* USStatesColorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USStatesColorMap.h; sourceTree = "<group>"; };
+		A61B9C75173968AB00453144 /* USStatesColorMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USStatesColorMap.m; sourceTree = "<group>"; };
+		A67D9497173EA5650046FBE6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61B9C461739687300453144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67D9498173EA5650046FBE6 /* CoreText.framework in Frameworks */,
+				A61B9C4D1739687300453144 /* UIKit.framework in Frameworks */,
+				A61B9C4F1739687300453144 /* Foundation.framework in Frameworks */,
+				A61B9C511739687300453144 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6193999173E564C0046E4B9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A619399A173E564C0046E4B9 /* AppDelegate.h */,
+				A619399B173E564C0046E4B9 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A619399D173E567E0046E4B9 /* MapCustomizationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A619399E173E567F0046E4B9 /* MapCustomizationViewController.h */,
+				A619399F173E567F0046E4B9 /* MapCustomizationViewController.m */,
+				A61939A0173E567F0046E4B9 /* MapCustomizationViewController_iPad.xib */,
+				A61939A1173E567F0046E4B9 /* MapCustomizationViewController_iPhone.xib */,
+			);
+			path = MapCustomizationViewController;
+			sourceTree = "<group>";
+		};
+		A61939A2173E567F0046E4B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A61939A3173E567F0046E4B9 /* ViewController.h */,
+				A61939A4173E567F0046E4B9 /* ViewController.m */,
+				A61939A5173E567F0046E4B9 /* ViewController_iPad.xib */,
+				A61939A6173E567F0046E4B9 /* ViewController_iPhone.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A61B9C401739687300453144 = {
+			isa = PBXGroup;
+			children = (
+				A61B9C521739687300453144 /* USStatesColorMapDemo */,
+				A61B9C4B1739687300453144 /* Frameworks */,
+				A61B9C4A1739687300453144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61B9C4A1739687300453144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61B9C491739687300453144 /* USStatesColorMapDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61B9C4B1739687300453144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A67D9497173EA5650046FBE6 /* CoreText.framework */,
+				A61B9C4C1739687300453144 /* UIKit.framework */,
+				A61B9C4E1739687300453144 /* Foundation.framework */,
+				A61B9C501739687300453144 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A61B9C521739687300453144 /* USStatesColorMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A61B9C72173968AB00453144 /* USStatesColorMap */,
+				A6193999173E564C0046E4B9 /* AppDelegate */,
+				A619399D173E567E0046E4B9 /* MapCustomizationViewController */,
+				A61939A2173E567F0046E4B9 /* ViewController */,
+				A6193995173E54E70046E4B9 /* UINavigationController+AllOrientationsiPhone.h */,
+				A61B9C531739687300453144 /* Supporting Files */,
+			);
+			path = USStatesColorMapDemo;
+			sourceTree = "<group>";
+		};
+		A61B9C531739687300453144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61B9C541739687300453144 /* USStatesColorMapDemo-Info.plist */,
+				A61B9C551739687300453144 /* InfoPlist.strings */,
+				A61B9C581739687300453144 /* main.m */,
+				A61B9C5A1739687300453144 /* USStatesColorMapDemo-Prefix.pch */,
+				A61B9C5E1739687300453144 /* Default.png */,
+				A61B9C601739687300453144 /* Default@2x.png */,
+				A61B9C621739687300453144 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A61B9C72173968AB00453144 /* USStatesColorMap */ = {
+			isa = PBXGroup;
+			children = (
+				A61B9C73173968AB00453144 /* stately.ttf */,
+				A6112DF4173CF36F0057AC57 /* USStatesColorMapHeader.h */,
+				A61B9C74173968AB00453144 /* USStatesColorMap.h */,
+				A61B9C75173968AB00453144 /* USStatesColorMap.m */,
+			);
+			path = USStatesColorMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61B9C481739687300453144 /* USStatesColorMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61B9C6F1739687300453144 /* Build configuration list for PBXNativeTarget "USStatesColorMapDemo" */;
+			buildPhases = (
+				A61B9C451739687300453144 /* Sources */,
+				A61B9C461739687300453144 /* Frameworks */,
+				A61B9C471739687300453144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USStatesColorMapDemo;
+			productName = USStatesColorMapDemo;
+			productReference = A61B9C491739687300453144 /* USStatesColorMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61B9C411739687300453144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrey Cherkashin";
+			};
+			buildConfigurationList = A61B9C441739687300453144 /* Build configuration list for PBXProject "USStatesColorMapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A61B9C401739687300453144;
+			productRefGroup = A61B9C4A1739687300453144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61B9C481739687300453144 /* USStatesColorMapDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61B9C471739687300453144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61B9C571739687300453144 /* InfoPlist.strings in Resources */,
+				A61B9C5F1739687300453144 /* Default.png in Resources */,
+				A61B9C611739687300453144 /* Default@2x.png in Resources */,
+				A61B9C631739687300453144 /* Default-568h@2x.png in Resources */,
+				A61B9C76173968AB00453144 /* stately.ttf in Resources */,
+				A61939A8173E567F0046E4B9 /* MapCustomizationViewController_iPad.xib in Resources */,
+				A61939A9173E567F0046E4B9 /* MapCustomizationViewController_iPhone.xib in Resources */,
+				A61939AB173E567F0046E4B9 /* ViewController_iPad.xib in Resources */,
+				A61939AC173E567F0046E4B9 /* ViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61B9C451739687300453144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61B9C591739687300453144 /* main.m in Sources */,
+				A61B9C77173968AB00453144 /* USStatesColorMap.m in Sources */,
+				A619399C173E564C0046E4B9 /* AppDelegate.m in Sources */,
+				A61939A7173E567F0046E4B9 /* MapCustomizationViewController.m in Sources */,
+				A61939AA173E567F0046E4B9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A61B9C551739687300453144 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61B9C561739687300453144 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61B9C6D1739687300453144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61B9C6E1739687300453144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61B9C701739687300453144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "USStatesColorMapDemo/USStatesColorMapDemo-Prefix.pch";
+				INFOPLIST_FILE = "USStatesColorMapDemo/USStatesColorMapDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A61B9C711739687300453144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "USStatesColorMapDemo/USStatesColorMapDemo-Prefix.pch";
+				INFOPLIST_FILE = "USStatesColorMapDemo/USStatesColorMapDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61B9C441739687300453144 /* Build configuration list for PBXProject "USStatesColorMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61B9C6D1739687300453144 /* Debug */,
+				A61B9C6E1739687300453144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61B9C6F1739687300453144 /* Build configuration list for PBXNativeTarget "USStatesColorMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61B9C701739687300453144 /* Debug */,
+				A61B9C711739687300453144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61B9C411739687300453144 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SlideViewFramework' target in the 'SlideViewFramework' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

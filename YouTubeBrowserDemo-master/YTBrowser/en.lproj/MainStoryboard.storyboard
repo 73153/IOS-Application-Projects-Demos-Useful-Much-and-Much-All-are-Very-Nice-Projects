@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="YJY-E2-yUc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - YouTube search-->
+        <scene sceneID="5">
+            <objects>
+                <viewController title="YouTube search" id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oUo-Nf-xJR" customClass="MGScrollView"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oUo-Nf-xJR" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="3Ac-3M-6w0"/>
+                            <constraint firstItem="oUo-Nf-xJR" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="Nrw-4O-ptt"/>
+                            <constraint firstItem="oUo-Nf-xJR" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="VaX-0D-hdH"/>
+                            <constraint firstItem="oUo-Nf-xJR" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="ncM-o9-xzq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="YouTube search" id="XGC-wi-7fG"/>
+                    <connections>
+                        <outlet property="scroller" destination="oUo-Nf-xJR" id="ksm-Tb-AOY"/>
+                        <segue destination="kjy-Jf-xoT" kind="push" identifier="videoViewSegue" id="10V-db-iFT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621" y="43"/>
+        </scene>
+        <!--Web Video View Controller-->
+        <scene sceneID="t3z-KS-nMC">
+            <objects>
+                <viewController id="kjy-Jf-xoT" customClass="WebVideoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8GR-ev-bMr">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfn-du-qFP">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="269" id="rlP-YX-IHw"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="pfn-du-qFP" firstAttribute="leading" secondItem="8GR-ev-bMr" secondAttribute="leading" type="default" id="XmD-fB-vvk"/>
+                            <constraint firstItem="pfn-du-qFP" firstAttribute="trailing" secondItem="8GR-ev-bMr" secondAttribute="trailing" type="default" id="ZPc-Ht-bOv"/>
+                            <constraint firstItem="pfn-du-qFP" firstAttribute="top" secondItem="8GR-ev-bMr" secondAttribute="top" constant="73" id="gFK-HF-jE1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gsC-eX-Kj8"/>
+                    <connections>
+                        <outlet property="webView" destination="pfn-du-qFP" id="Rsa-WW-n3u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pd2-89-f3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080" y="43"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PvO-OR-6Yh">
+            <objects>
+                <navigationController id="YJY-E2-yUc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rfr-nm-Xi2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="I63-so-is5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="00r-IS-mFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95" y="43"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="MGScrollView" superclassName="UIScrollView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MGScrollView.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scroller" candidateClass="MGScrollView"/>
+            </relationships>
+        </class>
+        <class className="WebVideoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebVideoViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

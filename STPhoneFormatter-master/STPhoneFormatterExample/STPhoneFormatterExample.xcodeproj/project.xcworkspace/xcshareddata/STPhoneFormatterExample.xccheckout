@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EFF4367F-BF30-4DB7-97F5-A9BCEBA17B94</string>
+	<key>IDESourceControlProjectName</key>
+	<string>STPhoneFormatterExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>97E2DAFB-651D-4B5F-AEDB-A9D88AD2FE28</key>
+		<string>https://github.com/SebastienThiebaud/STPhoneFormatter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>STPhoneFormatterExample/STPhoneFormatterExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>97E2DAFB-651D-4B5F-AEDB-A9D88AD2FE28</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SebastienThiebaud/STPhoneFormatter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>97E2DAFB-651D-4B5F-AEDB-A9D88AD2FE28</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>97E2DAFB-651D-4B5F-AEDB-A9D88AD2FE28</string>
+			<key>IDESourceControlWCCName</key>
+			<string>STPhoneFormatter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

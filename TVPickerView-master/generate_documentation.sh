@@ -1,0 +1,1 @@
+appledoc --project-name TVPickerView --project-company "Tavisca software" --company-id com.tavisca --output Documentation/ --no-create-docset TVPickerView/Classes

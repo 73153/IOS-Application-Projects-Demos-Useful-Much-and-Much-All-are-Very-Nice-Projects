@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CCA5DCC160B33110068680D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA5DCB160B33110068680D /* UIKit.framework */; };
+		2CCA5DCE160B33110068680D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA5DCD160B33110068680D /* Foundation.framework */; };
+		2CCA5DD0160B33110068680D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA5DCF160B33110068680D /* CoreGraphics.framework */; };
+		2CCA5DD6160B33110068680D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DD4160B33110068680D /* InfoPlist.strings */; };
+		2CCA5DD8160B33110068680D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA5DD7160B33110068680D /* main.m */; };
+		2CCA5DDC160B33110068680D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA5DDB160B33110068680D /* AppDelegate.m */; };
+		2CCA5DF6160B331F0068680D /* TVCalibratedSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA5DE4160B331F0068680D /* TVCalibratedSlider.m */; };
+		2CCA5DF7160B331F0068680D /* TVSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA5DE6160B331F0068680D /* TVSlider.m */; };
+		2CCA5DF8160B331F0068680D /* TVCalibratedSliderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA5DE9160B331F0068680D /* TVCalibratedSliderDemoViewController.m */; };
+		2CCA5DF9160B331F0068680D /* TVCalibratedSliderDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DEA160B331F0068680D /* TVCalibratedSliderDemoViewController.xib */; };
+		2CCA5DFA160B331F0068680D /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DEC160B331F0068680D /* marker.png */; };
+		2CCA5DFB160B331F0068680D /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DED160B331F0068680D /* marker@2x.png */; };
+		2CCA5DFC160B331F0068680D /* slider_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DEE160B331F0068680D /* slider_blue.png */; };
+		2CCA5DFD160B331F0068680D /* slider_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DEF160B331F0068680D /* slider_blue@2x.png */; };
+		2CCA5DFE160B331F0068680D /* slider_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DF0160B331F0068680D /* slider_gray.png */; };
+		2CCA5DFF160B331F0068680D /* slider_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DF1160B331F0068680D /* slider_gray@2x.png */; };
+		2CCA5E00160B331F0068680D /* slider_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DF2160B331F0068680D /* slider_hover.png */; };
+		2CCA5E01160B331F0068680D /* slider_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DF3160B331F0068680D /* slider_hover@2x.png */; };
+		2CCA5E02160B331F0068680D /* slider_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DF4160B331F0068680D /* slider_normal.png */; };
+		2CCA5E03160B331F0068680D /* slider_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA5DF5160B331F0068680D /* slider_normal@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CCA5DC7160B33110068680D /* TVCalibratedSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVCalibratedSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCA5DCB160B33110068680D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CCA5DCD160B33110068680D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CCA5DCF160B33110068680D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CCA5DD3160B33110068680D /* TVCalibratedSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVCalibratedSlider-Info.plist"; sourceTree = "<group>"; };
+		2CCA5DD5160B33110068680D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CCA5DD7160B33110068680D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CCA5DD9160B33110068680D /* TVCalibratedSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVCalibratedSlider-Prefix.pch"; sourceTree = "<group>"; };
+		2CCA5DDA160B33110068680D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CCA5DDB160B33110068680D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CCA5DE3160B331F0068680D /* TVCalibratedSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCalibratedSlider.h; sourceTree = "<group>"; };
+		2CCA5DE4160B331F0068680D /* TVCalibratedSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCalibratedSlider.m; sourceTree = "<group>"; };
+		2CCA5DE5160B331F0068680D /* TVSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVSlider.h; sourceTree = "<group>"; };
+		2CCA5DE6160B331F0068680D /* TVSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVSlider.m; sourceTree = "<group>"; };
+		2CCA5DE8160B331F0068680D /* TVCalibratedSliderDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCalibratedSliderDemoViewController.h; sourceTree = "<group>"; };
+		2CCA5DE9160B331F0068680D /* TVCalibratedSliderDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCalibratedSliderDemoViewController.m; sourceTree = "<group>"; };
+		2CCA5DEA160B331F0068680D /* TVCalibratedSliderDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TVCalibratedSliderDemoViewController.xib; sourceTree = "<group>"; };
+		2CCA5DEC160B331F0068680D /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		2CCA5DED160B331F0068680D /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		2CCA5DEE160B331F0068680D /* slider_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_blue.png; sourceTree = "<group>"; };
+		2CCA5DEF160B331F0068680D /* slider_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider_blue@2x.png"; sourceTree = "<group>"; };
+		2CCA5DF0160B331F0068680D /* slider_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_gray.png; sourceTree = "<group>"; };
+		2CCA5DF1160B331F0068680D /* slider_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider_gray@2x.png"; sourceTree = "<group>"; };
+		2CCA5DF2160B331F0068680D /* slider_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_hover.png; sourceTree = "<group>"; };
+		2CCA5DF3160B331F0068680D /* slider_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider_hover@2x.png"; sourceTree = "<group>"; };
+		2CCA5DF4160B331F0068680D /* slider_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_normal.png; sourceTree = "<group>"; };
+		2CCA5DF5160B331F0068680D /* slider_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider_normal@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CCA5DC4160B33110068680D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA5DCC160B33110068680D /* UIKit.framework in Frameworks */,
+				2CCA5DCE160B33110068680D /* Foundation.framework in Frameworks */,
+				2CCA5DD0160B33110068680D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CCA5DBC160B33110068680D = {
+			isa = PBXGroup;
+			children = (
+				2CCA5DE2160B331F0068680D /* Classes */,
+				2CCA5DE7160B331F0068680D /* Example */,
+				2CCA5DEB160B331F0068680D /* Resources */,
+				2CCA5DD1160B33110068680D /* TVCalibratedSlider */,
+				2CCA5DCA160B33110068680D /* Frameworks */,
+				2CCA5DC8160B33110068680D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCA5DC8160B33110068680D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA5DC7160B33110068680D /* TVCalibratedSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CCA5DCA160B33110068680D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA5DCB160B33110068680D /* UIKit.framework */,
+				2CCA5DCD160B33110068680D /* Foundation.framework */,
+				2CCA5DCF160B33110068680D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CCA5DD1160B33110068680D /* TVCalibratedSlider */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA5DDA160B33110068680D /* AppDelegate.h */,
+				2CCA5DDB160B33110068680D /* AppDelegate.m */,
+				2CCA5DD2160B33110068680D /* Supporting Files */,
+			);
+			path = TVCalibratedSlider;
+			sourceTree = "<group>";
+		};
+		2CCA5DD2160B33110068680D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA5DD3160B33110068680D /* TVCalibratedSlider-Info.plist */,
+				2CCA5DD4160B33110068680D /* InfoPlist.strings */,
+				2CCA5DD7160B33110068680D /* main.m */,
+				2CCA5DD9160B33110068680D /* TVCalibratedSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CCA5DE2160B331F0068680D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA5DE3160B331F0068680D /* TVCalibratedSlider.h */,
+				2CCA5DE4160B331F0068680D /* TVCalibratedSlider.m */,
+				2CCA5DE5160B331F0068680D /* TVSlider.h */,
+				2CCA5DE6160B331F0068680D /* TVSlider.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2CCA5DE7160B331F0068680D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA5DE8160B331F0068680D /* TVCalibratedSliderDemoViewController.h */,
+				2CCA5DE9160B331F0068680D /* TVCalibratedSliderDemoViewController.m */,
+				2CCA5DEA160B331F0068680D /* TVCalibratedSliderDemoViewController.xib */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		2CCA5DEB160B331F0068680D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA5DEC160B331F0068680D /* marker.png */,
+				2CCA5DED160B331F0068680D /* marker@2x.png */,
+				2CCA5DEE160B331F0068680D /* slider_blue.png */,
+				2CCA5DEF160B331F0068680D /* slider_blue@2x.png */,
+				2CCA5DF0160B331F0068680D /* slider_gray.png */,
+				2CCA5DF1160B331F0068680D /* slider_gray@2x.png */,
+				2CCA5DF2160B331F0068680D /* slider_hover.png */,
+				2CCA5DF3160B331F0068680D /* slider_hover@2x.png */,
+				2CCA5DF4160B331F0068680D /* slider_normal.png */,
+				2CCA5DF5160B331F0068680D /* slider_normal@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CCA5DC6160B33110068680D /* TVCalibratedSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCA5DDF160B33110068680D /* Build configuration list for PBXNativeTarget "TVCalibratedSlider" */;
+			buildPhases = (
+				2CCA5DC3160B33110068680D /* Sources */,
+				2CCA5DC4160B33110068680D /* Frameworks */,
+				2CCA5DC5160B33110068680D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVCalibratedSlider;
+			productName = TVCalibratedSlider;
+			productReference = 2CCA5DC7160B33110068680D /* TVCalibratedSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CCA5DBE160B33110068680D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Tavisca;
+			};
+			buildConfigurationList = 2CCA5DC1160B33110068680D /* Build configuration list for PBXProject "TVCalibratedSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CCA5DBC160B33110068680D;
+			productRefGroup = 2CCA5DC8160B33110068680D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CCA5DC6160B33110068680D /* TVCalibratedSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCA5DC5160B33110068680D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA5DD6160B33110068680D /* InfoPlist.strings in Resources */,
+				2CCA5DF9160B331F0068680D /* TVCalibratedSliderDemoViewController.xib in Resources */,
+				2CCA5DFA160B331F0068680D /* marker.png in Resources */,
+				2CCA5DFB160B331F0068680D /* marker@2x.png in Resources */,
+				2CCA5DFC160B331F0068680D /* slider_blue.png in Resources */,
+				2CCA5DFD160B331F0068680D /* slider_blue@2x.png in Resources */,
+				2CCA5DFE160B331F0068680D /* slider_gray.png in Resources */,
+				2CCA5DFF160B331F0068680D /* slider_gray@2x.png in Resources */,
+				2CCA5E00160B331F0068680D /* slider_hover.png in Resources */,
+				2CCA5E01160B331F0068680D /* slider_hover@2x.png in Resources */,
+				2CCA5E02160B331F0068680D /* slider_normal.png in Resources */,
+				2CCA5E03160B331F0068680D /* slider_normal@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CCA5DC3160B33110068680D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA5DD8160B33110068680D /* main.m in Sources */,
+				2CCA5DDC160B33110068680D /* AppDelegate.m in Sources */,
+				2CCA5DF6160B331F0068680D /* TVCalibratedSlider.m in Sources */,
+				2CCA5DF7160B331F0068680D /* TVSlider.m in Sources */,
+				2CCA5DF8160B331F0068680D /* TVCalibratedSliderDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CCA5DD4160B33110068680D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCA5DD5160B33110068680D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CCA5DDD160B33110068680D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CCA5DDE160B33110068680D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCA5DE0160B33110068680D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVCalibratedSlider/TVCalibratedSlider-Prefix.pch";
+				INFOPLIST_FILE = "TVCalibratedSlider/TVCalibratedSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CCA5DE1160B33110068680D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVCalibratedSlider/TVCalibratedSlider-Prefix.pch";
+				INFOPLIST_FILE = "TVCalibratedSlider/TVCalibratedSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCA5DC1160B33110068680D /* Build configuration list for PBXProject "TVCalibratedSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCA5DDD160B33110068680D /* Debug */,
+				2CCA5DDE160B33110068680D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCA5DDF160B33110068680D /* Build configuration list for PBXNativeTarget "TVCalibratedSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCA5DE0160B33110068680D /* Debug */,
+				2CCA5DE1160B33110068680D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CCA5DBE160B33110068680D /* Project object */;
+}

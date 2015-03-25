@@ -1,0 +1,941 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TVPickerView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TVPickerView </a></h1>
+				<a id="developerHome" href="../index.html">Tavisca software</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TVPickerView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/datasource">&nbsp;&nbsp;&nbsp;&nbsp;datasource</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/reloadData">&nbsp;&nbsp;&nbsp;&nbsp;- reloadData</option>
+	
+	<option value="//api/name/selectedIndex">&nbsp;&nbsp;&nbsp;&nbsp;- selectedIndex</option>
+	
+	<option value="//api/name/setBackgroundImageOfDecrementButton:forState:">&nbsp;&nbsp;&nbsp;&nbsp;- setBackgroundImageOfDecrementButton:forState:</option>
+	
+	<option value="//api/name/setBackgroundImageOfIncrementButton:forState:">&nbsp;&nbsp;&nbsp;&nbsp;- setBackgroundImageOfIncrementButton:forState:</option>
+	
+	<option value="//api/name/setContentTextColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setContentTextColor:</option>
+	
+	<option value="//api/name/setContentTextFont:">&nbsp;&nbsp;&nbsp;&nbsp;- setContentTextFont:</option>
+	
+	<option value="//api/name/setIncrementDecrementTextColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setIncrementDecrementTextColor:</option>
+	
+	<option value="//api/name/setSelectedIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- setSelectedIndex:</option>
+	
+	<option value="//api/name/setSelectedIndex:andReloadView:">&nbsp;&nbsp;&nbsp;&nbsp;- setSelectedIndex:andReloadView:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/datasource">datasource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reloadData">reloadData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedIndex">selectedIndex</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBackgroundImageOfDecrementButton:forState:">setBackgroundImageOfDecrementButton:forState:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBackgroundImageOfIncrementButton:forState:">setBackgroundImageOfIncrementButton:forState:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setContentTextColor:">setContentTextColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setContentTextFont:">setContentTextFont:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setIncrementDecrementTextColor:">setIncrementDecrementTextColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSelectedIndex:">setSelectedIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSelectedIndex:andReloadView:">setSelectedIndex:andReloadView:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TVPickerView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TVPickerView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TVPickerView.h<br />TVPickerView.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Custom picker view with increment decrement operations.</p>
+
+<p>Example usage:</p>
+
+<pre><code>    TVPickerView *tvPickerView = [[TVPickerView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    tvPickerView.delegate = //set delegate
+    tvPickerView.dataSource = //set dataSouce
+    [parentView addSubView:tvPickerView];
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		<span class="tooltip"><p>@abstract <a href="../Protocols/TVPickerViewDelegate.html">TVPickerViewDelegate</a> property</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/datasource">&nbsp;&nbsp;datasource</a></code>
+		<span class="tooltip"><p>@abstract TVPickerViewDataSource property</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setContentTextColor:">&ndash;&nbsp;setContentTextColor:</a></code>
+		<span class="tooltip"><p>@abstract This is used to set the color of the text.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setContentTextFont:">&ndash;&nbsp;setContentTextFont:</a></code>
+		<span class="tooltip"><p>@abstract Used to set the font of the text.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setIncrementDecrementTextColor:">&ndash;&nbsp;setIncrementDecrementTextColor:</a></code>
+		<span class="tooltip"><p>@abstract Used to set the color of increment &amp; decerement buttons.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBackgroundImageOfIncrementButton:forState:">&ndash;&nbsp;setBackgroundImageOfIncrementButton:forState:</a></code>
+		<span class="tooltip"><p>@abstract Set the image of the increment button.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBackgroundImageOfDecrementButton:forState:">&ndash;&nbsp;setBackgroundImageOfDecrementButton:forState:</a></code>
+		<span class="tooltip"><p>@abstract Set the image of the decrement button.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reloadData">&ndash;&nbsp;reloadData</a></code>
+		<span class="tooltip"><p>@abstract Reload all data source elements</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedIndex">&ndash;&nbsp;selectedIndex</a></code>
+		<span class="tooltip"><p>@abstract Return the current index</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSelectedIndex:">&ndash;&nbsp;setSelectedIndex:</a></code>
+		<span class="tooltip"><p>@abstract Set the current index.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSelectedIndex:andReloadView:">&ndash;&nbsp;setSelectedIndex:andReloadView:</a></code>
+		<span class="tooltip"><p>@abstract Set the current index.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/datasource" title="datasource"></a>
+	<h3 class="subsubtitle method-title">datasource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract TVPickerViewDataSource property</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak, nonatomic) id&lt;TVPickerViewDatasource&gt; datasource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract TVPickerViewDataSource property</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract <a href="../Protocols/TVPickerViewDelegate.html">TVPickerViewDelegate</a> property</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak, nonatomic) id&lt;TVPickerViewDelegate&gt; delegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract <a href="../Protocols/TVPickerViewDelegate.html">TVPickerViewDelegate</a> property</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/reloadData" title="reloadData"></a>
+	<h3 class="subsubtitle method-title">reloadData</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract Reload all data source elements</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)reloadData</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract Reload all data source elements</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedIndex" title="selectedIndex"></a>
+	<h3 class="subsubtitle method-title">selectedIndex</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract Return the current index</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)selectedIndex</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>selected index</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract Return the current index</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBackgroundImageOfDecrementButton:forState:" title="setBackgroundImageOfDecrementButton:forState:"></a>
+	<h3 class="subsubtitle method-title">setBackgroundImageOfDecrementButton:forState:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract Set the image of the decrement button.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setBackgroundImageOfDecrementButton:(NSString *)<em>imageName</em> forState:(UIControlState)<em>state</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>imageName</em></dt>
+			<dd><p>Name of the image.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>state</em></dt>
+			<dd><p>Button state for which the image should be applied.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract Set the image of the decrement button.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBackgroundImageOfIncrementButton:forState:" title="setBackgroundImageOfIncrementButton:forState:"></a>
+	<h3 class="subsubtitle method-title">setBackgroundImageOfIncrementButton:forState:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract Set the image of the increment button.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setBackgroundImageOfIncrementButton:(NSString *)<em>imageName</em> forState:(UIControlState)<em>state</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>imageName</em></dt>
+			<dd><p>Name of the image.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>state</em></dt>
+			<dd><p>Button state for which the image should be applied.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract Set the image of the increment button.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setContentTextColor:" title="setContentTextColor:"></a>
+	<h3 class="subsubtitle method-title">setContentTextColor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract This is used to set the color of the text.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setContentTextColor:(UIColor *)<em>color</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>UIColor, color of the text.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract This is used to set the color of the text.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setContentTextFont:" title="setContentTextFont:"></a>
+	<h3 class="subsubtitle method-title">setContentTextFont:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract Used to set the font of the text.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setContentTextFont:(UIFont *)<em>font</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>font</em></dt>
+			<dd><p>UIFont, font of the text.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract Used to set the font of the text.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setIncrementDecrementTextColor:" title="setIncrementDecrementTextColor:"></a>
+	<h3 class="subsubtitle method-title">setIncrementDecrementTextColor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract Used to set the color of increment &amp; decerement buttons.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setIncrementDecrementTextColor:(UIColor *)<em>color</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>UIColor</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract Used to set the color of increment &amp; decerement buttons.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSelectedIndex:" title="setSelectedIndex:"></a>
+	<h3 class="subsubtitle method-title">setSelectedIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract Set the current index.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setSelectedIndex:(NSInteger)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>value to set</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract Set the current index.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSelectedIndex:andReloadView:" title="setSelectedIndex:andReloadView:"></a>
+	<h3 class="subsubtitle method-title">setSelectedIndex:andReloadView:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@abstract Set the current index.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setSelectedIndex:(NSInteger)<em>index</em> andReloadView:(BOOL)<em>doReload</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>doReload</em></dt>
+			<dd><p>Do update View</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>value to set</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@abstract Set the current index.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TVPickerView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Tavisca software. All rights reserved. (Last updated: 2012-10-05)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

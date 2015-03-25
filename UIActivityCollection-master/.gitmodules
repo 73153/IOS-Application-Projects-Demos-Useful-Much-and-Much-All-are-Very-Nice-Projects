@@ -1,0 +1,93 @@
+[submodule "Buffer"]
+	path = Buffer
+	url = git://github.com/bufferapp/buffer-uiactivity.git
+[submodule "Dropbox"]
+	path = Dropbox
+	url = git://github.com/goosoftware/GSDropboxActivity.git
+[submodule "SoundCloud"]
+	path = SoundCloud
+	url = git://github.com/nbonatsakis/NBSoundCloudActivity.git
+[submodule "Flattr"]
+	path = Flattr
+	url = git://github.com/neonichu/FlattrKit.git
+[submodule "Pinboard"]
+	path = Pinboard
+	url = git://github.com/neonichu/VUPinboardActivity.git
+[submodule "Chrome"]
+	path = Chrome
+	url = git://github.com/alextrob/ARChromeActivity.git
+[submodule "Readability"]
+	path = Readability
+	url = git://github.com/arc90/ReadabilityActivity.git
+[submodule "Pinbook"]
+	path = Pinbook
+	url = git://github.com/collindonnell/ALBPinbookActivity.git
+[submodule "Instagram"]
+	path = Instagram
+	url = git://github.com/coryalder/DMActivityInstagram.git
+[submodule "Pocket"]
+	path = Pocket
+	url = https://github.com/tomazsh/NNNetwork
+[submodule "Tumbletail"]
+	path = Tumbletail
+	url = https://github.com/cathandnya/CHTumbletailActivity
+[submodule "Safari"]
+	path = Safari
+	url = git://github.com/davbeck/TUSafariActivity.git
+[submodule "Line"]
+	path = Line
+url=https://github.com/nottihub/LINEActivity.git
+[submodule "In-App"]
+	path = In-App
+	url = git://github.com/J3D1-WARR10R/ATFUIWebViewActivity.git
+[submodule "GoogleMaps"]
+	path = GoogleMaps
+	url = git://github.com/jnjosh/JNJGoogleMapsActivity.git
+[submodule "Nakamap"]
+	path = Nakamap
+url=git://github.com/shu223/SHNakamapActivity.git
+[submodule "Instapaper"]
+	path = Instapaper
+	url = git://github.com/marianoabdala/ZYInstapaperActivity.git
+[submodule "OpenInMenu"]
+	path = OpenInMenu
+	url = https://github.com/honkmaster/TTOpenInAppActivity
+[submodule "FullscreenPreview"]
+	path = FullscreenPreview
+	url = https://github.com/honkmaster/TTFullscreenPreviewActivity
+[submodule "MessageUI"]
+	path = MessageUI
+	url = https://github.com/waynehartman/WHMessageActivities
+[submodule "Crux"]
+	path = Crux
+	url = https://github.com/MaxHasADHD/MLCruxActivity
+[submodule "AppleMaps"]
+	path = AppleMaps
+	url = https://github.com/honkmaster/TTAppleMapsActivity
+[submodule "Pinner"]
+	path = Pinner
+	url = https://github.com/blork/SOPinnerActivity
+[submodule "Kippster"]
+	path = Kippster
+	url = https://github.com/alextrob/ARKippsterActivity
+[submodule "Calendar/NHCalendarActivity"]
+	path = Calendar/NHCalendarActivity
+	url = https://github.com/otaviocc/NHCalendarActivity.git
+[submodule "Calendar/YMCalendarActivity"]
+	path = Calendar/YMCalendarActivity
+	url = https://github.com/litesystems/YMCalendarActivity.git
+[submodule "KakaoTalk"]
+	path = KakaoTalk
+	url = https://github.com/l4u/DCActivities.git
+[submodule "AppStore/GiftApp"]
+	path = AppStore/GiftApp
+	url = https://github.com/mmorey/MDMGiftAppActivity
+[submodule "AppStore/InApp-AppStore"]
+	path = AppStore/InApp-AppStore
+	url = https://github.com/J3D1-WARR10R/ATFAppStoreActivity
+[submodule "AppStore/Review"]
+	path = AppStore/Review
+	url = https://github.com/NSPostWhenIdle/MMReviewAppActivityDemo
+[submodule "AppStore/Upgrade"]
+	path = AppStore/Upgrade
+	url = https://github.com/NSPostWhenIdle/MMUpgradeActivity

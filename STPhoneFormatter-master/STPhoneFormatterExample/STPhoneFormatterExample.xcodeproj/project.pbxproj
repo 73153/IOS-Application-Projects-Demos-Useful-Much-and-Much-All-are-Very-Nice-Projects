@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DAA8C017A80C22000A553D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DAA8BF17A80C22000A553D /* UIKit.framework */; };
+		25DAA8C217A80C22000A553D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DAA8C117A80C22000A553D /* Foundation.framework */; };
+		25DAA8C417A80C22000A553D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DAA8C317A80C22000A553D /* CoreGraphics.framework */; };
+		25DAA8CA17A80C22000A553D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25DAA8C817A80C22000A553D /* InfoPlist.strings */; };
+		25DAA8CC17A80C22000A553D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DAA8CB17A80C22000A553D /* main.m */; };
+		25DAA8D017A80C22000A553D /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DAA8CF17A80C22000A553D /* STAppDelegate.m */; };
+		25DAA8D217A80C22000A553D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DAA8D117A80C22000A553D /* Default.png */; };
+		25DAA8D417A80C22000A553D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DAA8D317A80C22000A553D /* Default@2x.png */; };
+		25DAA8D617A80C22000A553D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DAA8D517A80C22000A553D /* Default-568h@2x.png */; };
+		25DAA8D917A80C22000A553D /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DAA8D817A80C22000A553D /* STViewController.m */; };
+		25DAA8DC17A80C23000A553D /* STViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DAA8DA17A80C23000A553D /* STViewController.xib */; };
+		25DAA8E917A80D9E000A553D /* STPhoneFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DAA8E817A80D9E000A553D /* STPhoneFormatter.m */; };
+		25DAA8EB17A80F1E000A553D /* FormatsCountriesPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25DAA8EA17A80F1E000A553D /* FormatsCountriesPhone.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25DAA8BC17A80C22000A553D /* STPhoneFormatterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STPhoneFormatterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DAA8BF17A80C22000A553D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25DAA8C117A80C22000A553D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25DAA8C317A80C22000A553D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25DAA8C717A80C22000A553D /* STPhoneFormatterExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STPhoneFormatterExample-Info.plist"; sourceTree = "<group>"; };
+		25DAA8C917A80C22000A553D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25DAA8CB17A80C22000A553D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DAA8CD17A80C22000A553D /* STPhoneFormatterExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STPhoneFormatterExample-Prefix.pch"; sourceTree = "<group>"; };
+		25DAA8CE17A80C22000A553D /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		25DAA8CF17A80C22000A553D /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		25DAA8D117A80C22000A553D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25DAA8D317A80C22000A553D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25DAA8D517A80C22000A553D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25DAA8D717A80C22000A553D /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		25DAA8D817A80C22000A553D /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		25DAA8DB17A80C23000A553D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController.xib; sourceTree = "<group>"; };
+		25DAA8E717A80D9E000A553D /* STPhoneFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhoneFormatter.h; sourceTree = "<group>"; };
+		25DAA8E817A80D9E000A553D /* STPhoneFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhoneFormatter.m; sourceTree = "<group>"; };
+		25DAA8EA17A80F1E000A553D /* FormatsCountriesPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FormatsCountriesPhone.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DAA8B917A80C22000A553D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DAA8C017A80C22000A553D /* UIKit.framework in Frameworks */,
+				25DAA8C217A80C22000A553D /* Foundation.framework in Frameworks */,
+				25DAA8C417A80C22000A553D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DAA8B317A80C22000A553D = {
+			isa = PBXGroup;
+			children = (
+				25DAA8C517A80C22000A553D /* STPhoneFormatterExample */,
+				25DAA8BE17A80C22000A553D /* Frameworks */,
+				25DAA8BD17A80C22000A553D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DAA8BD17A80C22000A553D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DAA8BC17A80C22000A553D /* STPhoneFormatterExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DAA8BE17A80C22000A553D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25DAA8BF17A80C22000A553D /* UIKit.framework */,
+				25DAA8C117A80C22000A553D /* Foundation.framework */,
+				25DAA8C317A80C22000A553D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25DAA8C517A80C22000A553D /* STPhoneFormatterExample */ = {
+			isa = PBXGroup;
+			children = (
+				25DAA8E617A80D9E000A553D /* STPhoneFormatter */,
+				25DAA8CE17A80C22000A553D /* STAppDelegate.h */,
+				25DAA8CF17A80C22000A553D /* STAppDelegate.m */,
+				25DAA8D717A80C22000A553D /* STViewController.h */,
+				25DAA8D817A80C22000A553D /* STViewController.m */,
+				25DAA8DA17A80C23000A553D /* STViewController.xib */,
+				25DAA8C617A80C22000A553D /* Supporting Files */,
+			);
+			path = STPhoneFormatterExample;
+			sourceTree = "<group>";
+		};
+		25DAA8C617A80C22000A553D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DAA8C717A80C22000A553D /* STPhoneFormatterExample-Info.plist */,
+				25DAA8C817A80C22000A553D /* InfoPlist.strings */,
+				25DAA8CB17A80C22000A553D /* main.m */,
+				25DAA8CD17A80C22000A553D /* STPhoneFormatterExample-Prefix.pch */,
+				25DAA8D117A80C22000A553D /* Default.png */,
+				25DAA8D317A80C22000A553D /* Default@2x.png */,
+				25DAA8D517A80C22000A553D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DAA8E617A80D9E000A553D /* STPhoneFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				25DAA8E717A80D9E000A553D /* STPhoneFormatter.h */,
+				25DAA8E817A80D9E000A553D /* STPhoneFormatter.m */,
+				25DAA8EA17A80F1E000A553D /* FormatsCountriesPhone.plist */,
+			);
+			name = STPhoneFormatter;
+			path = ../../STPhoneFormatter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DAA8BB17A80C22000A553D /* STPhoneFormatterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DAA8DF17A80C23000A553D /* Build configuration list for PBXNativeTarget "STPhoneFormatterExample" */;
+			buildPhases = (
+				25DAA8B817A80C22000A553D /* Sources */,
+				25DAA8B917A80C22000A553D /* Frameworks */,
+				25DAA8BA17A80C22000A553D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STPhoneFormatterExample;
+			productName = STPhoneFormatterExample;
+			productReference = 25DAA8BC17A80C22000A553D /* STPhoneFormatterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DAA8B417A80C22000A553D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sebastien Thiebaud";
+			};
+			buildConfigurationList = 25DAA8B717A80C22000A553D /* Build configuration list for PBXProject "STPhoneFormatterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25DAA8B317A80C22000A553D;
+			productRefGroup = 25DAA8BD17A80C22000A553D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DAA8BB17A80C22000A553D /* STPhoneFormatterExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DAA8BA17A80C22000A553D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DAA8CA17A80C22000A553D /* InfoPlist.strings in Resources */,
+				25DAA8D217A80C22000A553D /* Default.png in Resources */,
+				25DAA8D417A80C22000A553D /* Default@2x.png in Resources */,
+				25DAA8D617A80C22000A553D /* Default-568h@2x.png in Resources */,
+				25DAA8DC17A80C23000A553D /* STViewController.xib in Resources */,
+				25DAA8EB17A80F1E000A553D /* FormatsCountriesPhone.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DAA8B817A80C22000A553D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DAA8CC17A80C22000A553D /* main.m in Sources */,
+				25DAA8D017A80C22000A553D /* STAppDelegate.m in Sources */,
+				25DAA8D917A80C22000A553D /* STViewController.m in Sources */,
+				25DAA8E917A80D9E000A553D /* STPhoneFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25DAA8C817A80C22000A553D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DAA8C917A80C22000A553D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25DAA8DA17A80C23000A553D /* STViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DAA8DB17A80C23000A553D /* en */,
+			);
+			name = STViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25DAA8DD17A80C23000A553D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25DAA8DE17A80C23000A553D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25DAA8E017A80C23000A553D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STPhoneFormatterExample/STPhoneFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "STPhoneFormatterExample/STPhoneFormatterExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25DAA8E117A80C23000A553D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STPhoneFormatterExample/STPhoneFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "STPhoneFormatterExample/STPhoneFormatterExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DAA8B717A80C22000A553D /* Build configuration list for PBXProject "STPhoneFormatterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DAA8DD17A80C23000A553D /* Debug */,
+				25DAA8DE17A80C23000A553D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DAA8DF17A80C23000A553D /* Build configuration list for PBXNativeTarget "STPhoneFormatterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DAA8E017A80C23000A553D /* Debug */,
+				25DAA8E117A80C23000A553D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DAA8B417A80C22000A553D /* Project object */;
+}

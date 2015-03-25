@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A25F767-C9B1-482C-8699-658D73056A62</string>
+	<key>IDESourceControlProjectName</key>
+	<string>STTimeSliderExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>771A111E-EE46-4199-B9A0-F32D6B18D92B</key>
+		<string>https://github.com/SebastienThiebaud/STTimeSlider.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>STTimeSliderExample/STTimeSliderExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>771A111E-EE46-4199-B9A0-F32D6B18D92B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SebastienThiebaud/STTimeSlider.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>771A111E-EE46-4199-B9A0-F32D6B18D92B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>771A111E-EE46-4199-B9A0-F32D6B18D92B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>STTimeSlider</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD2921916008214001E70EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD2921816008214001E70EF /* UIKit.framework */; };
+		2CD2921B16008214001E70EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD2921A16008214001E70EF /* Foundation.framework */; };
+		2CD2921D16008214001E70EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD2921C16008214001E70EF /* CoreGraphics.framework */; };
+		61AE9DEA1603228A0094BEB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE9DD11603228A0094BEB0 /* AppDelegate.m */; };
+		61AE9DEB1603228A0094BEB0 /* TVPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE9DD41603228A0094BEB0 /* TVPickerView.m */; };
+		61AE9DEC1603228A0094BEB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DD51603228A0094BEB0 /* InfoPlist.strings */; };
+		61AE9DED1603228A0094BEB0 /* TVPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE9DD91603228A0094BEB0 /* TVPickerViewController.m */; };
+		61AE9DEE1603228A0094BEB0 /* TVPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DDA1603228A0094BEB0 /* TVPickerViewController.xib */; };
+		61AE9DF01603228A0094BEB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE9DDC1603228A0094BEB0 /* main.m */; };
+		61AE9DF11603228A0094BEB0 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DDF1603228A0094BEB0 /* minus.png */; };
+		61AE9DF21603228A0094BEB0 /* minus_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DE01603228A0094BEB0 /* minus_press.png */; };
+		61AE9DF31603228A0094BEB0 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DE11603228A0094BEB0 /* plus.png */; };
+		61AE9DF41603228A0094BEB0 /* plus_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DE21603228A0094BEB0 /* plus_press.png */; };
+		61AE9DF51603228A0094BEB0 /* minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DE41603228A0094BEB0 /* minus@2x.png */; };
+		61AE9DF61603228A0094BEB0 /* minus_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DE51603228A0094BEB0 /* minus_press@2x.png */; };
+		61AE9DF71603228A0094BEB0 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DE61603228A0094BEB0 /* plus@2x.png */; };
+		61AE9DF81603228A0094BEB0 /* plus_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DE71603228A0094BEB0 /* plus_press@2x.png */; };
+		61AE9DF91603228A0094BEB0 /* TVPickerView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9DE81603228A0094BEB0 /* TVPickerView-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CD2921416008214001E70EF /* TVPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD2921816008214001E70EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CD2921A16008214001E70EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CD2921C16008214001E70EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61AE9DD01603228A0094BEB0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TVPickerView/AppDelegate.h; sourceTree = "<group>"; };
+		61AE9DD11603228A0094BEB0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TVPickerView/AppDelegate.m; sourceTree = "<group>"; };
+		61AE9DD31603228A0094BEB0 /* TVPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVPickerView.h; sourceTree = "<group>"; };
+		61AE9DD41603228A0094BEB0 /* TVPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVPickerView.m; sourceTree = "<group>"; };
+		61AE9DD61603228A0094BEB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61AE9DD81603228A0094BEB0 /* TVPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVPickerViewController.h; path = Example/TVPickerViewController.h; sourceTree = "<group>"; };
+		61AE9DD91603228A0094BEB0 /* TVPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVPickerViewController.m; path = Example/TVPickerViewController.m; sourceTree = "<group>"; };
+		61AE9DDA1603228A0094BEB0 /* TVPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TVPickerViewController.xib; path = Example/TVPickerViewController.xib; sourceTree = "<group>"; };
+		61AE9DDC1603228A0094BEB0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TVPickerView/main.m; sourceTree = "<group>"; };
+		61AE9DDF1603228A0094BEB0 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		61AE9DE01603228A0094BEB0 /* minus_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus_press.png; sourceTree = "<group>"; };
+		61AE9DE11603228A0094BEB0 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		61AE9DE21603228A0094BEB0 /* plus_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_press.png; sourceTree = "<group>"; };
+		61AE9DE41603228A0094BEB0 /* minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus@2x.png"; sourceTree = "<group>"; };
+		61AE9DE51603228A0094BEB0 /* minus_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus_press@2x.png"; sourceTree = "<group>"; };
+		61AE9DE61603228A0094BEB0 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		61AE9DE71603228A0094BEB0 /* plus_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus_press@2x.png"; sourceTree = "<group>"; };
+		61AE9DE81603228A0094BEB0 /* TVPickerView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TVPickerView-Info.plist"; path = "TVPickerView/TVPickerView-Info.plist"; sourceTree = "<group>"; };
+		61AE9DE91603228A0094BEB0 /* TVPickerView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TVPickerView-Prefix.pch"; path = "TVPickerView/TVPickerView-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD2921116008214001E70EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD2921916008214001E70EF /* UIKit.framework in Frameworks */,
+				2CD2921B16008214001E70EF /* Foundation.framework in Frameworks */,
+				2CD2921D16008214001E70EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD2920916008214001E70EF = {
+			isa = PBXGroup;
+			children = (
+				61AE9DD21603228A0094BEB0 /* TVPickerView */,
+				61AE9DDD1603228A0094BEB0 /* Resources */,
+				61AE9DCF1603228A0094BEB0 /* ExampleAppFiles */,
+				2CD2921716008214001E70EF /* Frameworks */,
+				2CD2921516008214001E70EF /* Products */,
+				61AE9DD01603228A0094BEB0 /* AppDelegate.h */,
+				61AE9DD11603228A0094BEB0 /* AppDelegate.m */,
+				61AE9DD51603228A0094BEB0 /* InfoPlist.strings */,
+				61AE9DDC1603228A0094BEB0 /* main.m */,
+				61AE9DE81603228A0094BEB0 /* TVPickerView-Info.plist */,
+				61AE9DE91603228A0094BEB0 /* TVPickerView-Prefix.pch */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD2921516008214001E70EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2921416008214001E70EF /* TVPickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD2921716008214001E70EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2921816008214001E70EF /* UIKit.framework */,
+				2CD2921A16008214001E70EF /* Foundation.framework */,
+				2CD2921C16008214001E70EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61AE9DCF1603228A0094BEB0 /* ExampleAppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				61AE9DD81603228A0094BEB0 /* TVPickerViewController.h */,
+				61AE9DD91603228A0094BEB0 /* TVPickerViewController.m */,
+				61AE9DDA1603228A0094BEB0 /* TVPickerViewController.xib */,
+			);
+			name = ExampleAppFiles;
+			path = TVPickerView;
+			sourceTree = "<group>";
+		};
+		61AE9DD21603228A0094BEB0 /* TVPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				61AE9DD31603228A0094BEB0 /* TVPickerView.h */,
+				61AE9DD41603228A0094BEB0 /* TVPickerView.m */,
+			);
+			name = TVPickerView;
+			path = TVPickerView/Classes;
+			sourceTree = "<group>";
+		};
+		61AE9DDD1603228A0094BEB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61AE9DDE1603228A0094BEB0 /* Normal */,
+				61AE9DE31603228A0094BEB0 /* Retina */,
+			);
+			name = Resources;
+			path = TVPickerView/Resources;
+			sourceTree = "<group>";
+		};
+		61AE9DDE1603228A0094BEB0 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				61AE9DDF1603228A0094BEB0 /* minus.png */,
+				61AE9DE01603228A0094BEB0 /* minus_press.png */,
+				61AE9DE11603228A0094BEB0 /* plus.png */,
+				61AE9DE21603228A0094BEB0 /* plus_press.png */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		61AE9DE31603228A0094BEB0 /* Retina */ = {
+			isa = PBXGroup;
+			children = (
+				61AE9DE41603228A0094BEB0 /* minus@2x.png */,
+				61AE9DE51603228A0094BEB0 /* minus_press@2x.png */,
+				61AE9DE61603228A0094BEB0 /* plus@2x.png */,
+				61AE9DE71603228A0094BEB0 /* plus_press@2x.png */,
+			);
+			path = Retina;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD2921316008214001E70EF /* TVPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD2922C16008214001E70EF /* Build configuration list for PBXNativeTarget "TVPickerView" */;
+			buildPhases = (
+				2CD2921016008214001E70EF /* Sources */,
+				2CD2921116008214001E70EF /* Frameworks */,
+				2CD2921216008214001E70EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVPickerView;
+			productName = TAVIPickerView;
+			productReference = 2CD2921416008214001E70EF /* TVPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD2920B16008214001E70EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = sandeep;
+			};
+			buildConfigurationList = 2CD2920E16008214001E70EF /* Build configuration list for PBXProject "TVPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CD2920916008214001E70EF;
+			productRefGroup = 2CD2921516008214001E70EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD2921316008214001E70EF /* TVPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD2921216008214001E70EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AE9DEC1603228A0094BEB0 /* InfoPlist.strings in Resources */,
+				61AE9DEE1603228A0094BEB0 /* TVPickerViewController.xib in Resources */,
+				61AE9DF11603228A0094BEB0 /* minus.png in Resources */,
+				61AE9DF21603228A0094BEB0 /* minus_press.png in Resources */,
+				61AE9DF31603228A0094BEB0 /* plus.png in Resources */,
+				61AE9DF41603228A0094BEB0 /* plus_press.png in Resources */,
+				61AE9DF51603228A0094BEB0 /* minus@2x.png in Resources */,
+				61AE9DF61603228A0094BEB0 /* minus_press@2x.png in Resources */,
+				61AE9DF71603228A0094BEB0 /* plus@2x.png in Resources */,
+				61AE9DF81603228A0094BEB0 /* plus_press@2x.png in Resources */,
+				61AE9DF91603228A0094BEB0 /* TVPickerView-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD2921016008214001E70EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AE9DEA1603228A0094BEB0 /* AppDelegate.m in Sources */,
+				61AE9DEB1603228A0094BEB0 /* TVPickerView.m in Sources */,
+				61AE9DED1603228A0094BEB0 /* TVPickerViewController.m in Sources */,
+				61AE9DF01603228A0094BEB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61AE9DD51603228A0094BEB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61AE9DD61603228A0094BEB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = TVPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD2922A16008214001E70EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CD2922B16008214001E70EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD2922D16008214001E70EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVPickerView/TVPickerView-Prefix.pch";
+				INFOPLIST_FILE = "TVPickerView/TVPickerView-Info.plist";
+				PRODUCT_NAME = TVPickerView;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CD2922E16008214001E70EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVPickerView/TVPickerView-Prefix.pch";
+				INFOPLIST_FILE = "TVPickerView/TVPickerView-Info.plist";
+				PRODUCT_NAME = TVPickerView;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD2920E16008214001E70EF /* Build configuration list for PBXProject "TVPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD2922A16008214001E70EF /* Debug */,
+				2CD2922B16008214001E70EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD2922C16008214001E70EF /* Build configuration list for PBXNativeTarget "TVPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD2922D16008214001E70EF /* Debug */,
+				2CD2922E16008214001E70EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD2920B16008214001E70EF /* Project object */;
+}

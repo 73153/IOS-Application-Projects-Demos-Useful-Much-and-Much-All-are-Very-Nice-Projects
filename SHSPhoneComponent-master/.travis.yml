@@ -1,0 +1,10 @@
+language: objective-c
+
+branches:
+  only:
+    master
+
+before_install:
+  - cd Example
+
+script: xcodebuild -scheme PhoneComponentTest -sdk iphonesimulator test
